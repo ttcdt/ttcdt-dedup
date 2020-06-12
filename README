@@ -1,0 +1,10 @@
+ttcdt-dedup 1.00 - Deduplicates files by using hard links.
+ttcdt <dev@triptico.com>
+This software is released into the public domain.
+
+Usage: ttcdt-dedup [-q] [-m {min_size}] {files...}
+
+Options:
+ -m {min_size}          Minimum file size to consider (in bytes).
+ -q                     Be quiet (only print errors).
+ -n                     Dry run (print what would be done, do nothing).
